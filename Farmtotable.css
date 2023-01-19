@@ -411,6 +411,7 @@ section{
     background:#576F72;
     flex-wrap: wrap;
     gap:1rem;
+    border-radius: 2rem;
 }
 .contact .row form{
     flex:1 1 45rem;
@@ -431,6 +432,7 @@ section{
     margin-bottom: 2rem;
     background:var(--bg);
     border:var(--border);
+    border-radius: 2rem;
 }
 
 .contact .row form .inputBox span{
@@ -446,6 +448,16 @@ section{
     color:#fff;
     text-transform: none;
     background:none;
+}
+.contact .row .btn1{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.9rem 3rem;
+    font-size: 1.7rem;
+    color:#fff;
+    background: var(--main-color);
+    cursor: pointer;
+    border-radius: 2rem;
 }
 .footer{
     background:var(--black);
