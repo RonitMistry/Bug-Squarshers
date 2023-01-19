@@ -596,3 +596,7 @@ section{
     align-items: center;
     border-radius: 1.5rem;
 }
+h4{
+    font-size: large;
+    color: rgb(192, 184, 184);
+}
